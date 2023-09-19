@@ -13,5 +13,11 @@ export default function QueryProcessor(query: string): string {
     );
   }
 
+  if(query == "What is your name?"){
+    return (
+      "Zoe"
+    );
+  }
+
   return "";
 }
