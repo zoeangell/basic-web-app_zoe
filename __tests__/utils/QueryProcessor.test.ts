@@ -32,4 +32,10 @@ describe("QueryProcessor", () => {
         expect(response).toBe(("Zoe"));
     });
 
+    test('should return correct answer', () => {
+        const query = "What is 89 plus 3?";
+        const response: string = QueryProcessor(query);
+        expect(response).toBe(("92"));
+    });
+
 });
