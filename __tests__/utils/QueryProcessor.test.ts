@@ -37,6 +37,10 @@ describe("QueryProcessor", () => {
         expect(QueryProcessor("What is 12 plus 1?")).toEqual("13");
     });
 
+    test('should give you the largest number', () => {
+        expect(QueryProcessor("Which of the following numbers is the largest: 45, 74, 43?")).toEqual("74");
+    })
+
 
 
 });
